@@ -5785,26 +5785,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hoain\\.nuget\\packages\\": {}
+    "/Users/kietpham/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DOTNETCORECODE\\MeetingAppCore\\MeetingAppCore\\MeetingAppCore.csproj",
+      "projectUniqueName": "/Volumes/DATA/Projects/dotnetcore/Sources/MeetingAppFull/MeetingAppCore/MeetingAppCore/MeetingAppCore.csproj",
       "projectName": "MeetingAppCore",
-      "projectPath": "E:\\DOTNETCORECODE\\MeetingAppCore\\MeetingAppCore\\MeetingAppCore.csproj",
-      "packagesPath": "C:\\Users\\hoain\\.nuget\\packages\\",
-      "outputPath": "E:\\DOTNETCORECODE\\MeetingAppCore\\MeetingAppCore\\obj\\",
+      "projectPath": "/Volumes/DATA/Projects/dotnetcore/Sources/MeetingAppFull/MeetingAppCore/MeetingAppCore/MeetingAppCore.csproj",
+      "packagesPath": "/Users/kietpham/.nuget/packages/",
+      "outputPath": "/Volumes/DATA/Projects/dotnetcore/Sources/MeetingAppFull/MeetingAppCore/MeetingAppCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hoain\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/kietpham/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5864,6 +5862,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[5.0.15, 5.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5872,7 +5876,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.3.22179.4/RuntimeIdentifierGraph.json"
       }
     }
   }
